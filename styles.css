@@ -1,9 +1,10 @@
 body {
-
+ display:flex;
+ flex-direction: column;
 }
 
 .header {
-
+  display: flex;
 }
 
 .header_logo{
@@ -79,5 +80,5 @@ li {
 }
 
 .footer {
-    
+
 }
