@@ -1,22 +1,27 @@
 body {
  display:flex;
  flex-direction: column;
+ min-height: 100vh;
+ justify-content: space-between;
 }
 
-.header {
+.header, .intro_section {
   display: flex;
+  background-color: #1F2937;
+  color: #f9faf8
 }
 
-.header_logo{
-
+.header_logo {
+  margin-right: auto;
 }
 
 .right-links {
-
+  margin-left: auto;
 }
 
 ul {
-
+  list-style: none;
+  display:flex;
 }
 
 li {
@@ -24,15 +29,17 @@ li {
 }
 
 .intro_section {
-
+  display:flex;
 }
 
 .intro_left {
-
+  display:flex;
+  flex-direction: column;
 }
 
 .welcome {
-
+  font-size: 48px;
+  font-weight: bold;
 }
 
 .hello {
