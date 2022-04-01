@@ -154,6 +154,9 @@ li {
   background-color: #f9faf8;
   display: flex;
   justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  
 }
 
 .signup_box {
