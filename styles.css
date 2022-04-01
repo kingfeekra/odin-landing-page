@@ -14,15 +14,19 @@ body {
 
 .header {
   height: 72px;
+  align-items: center;
 }
 
 .header_logo {
   margin-right: auto;
+  margin-left: 30%;
   font-size: 24px;
+  
 }
 
 .right-links {
   margin-left: auto;
+  margin-right: 30%;
 }
 
 ul {
@@ -42,6 +46,7 @@ li {
 .intro_left {
   display:flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .welcome {
@@ -55,6 +60,10 @@ li {
 
 .button {
   background-color: #3882f6;
+}
+
+.image {
+  
 }
 
 .info_section {
