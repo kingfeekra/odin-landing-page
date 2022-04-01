@@ -4,6 +4,7 @@ body {
  min-height: 100vh;
  justify-content: space-between;
  font-family: "Open Sans";
+ margin: 0;
 }
 
 .header, .intro_section, .footer {
