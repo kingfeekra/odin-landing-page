@@ -3,16 +3,22 @@ body {
  flex-direction: column;
  min-height: 100vh;
  justify-content: space-between;
+ font-family: "Open Sans";
 }
 
-.header, .intro_section {
+.header, .intro_section, .footer {
   display: flex;
   background-color: #1F2937;
   color: #f9faf8
 }
 
+.header {
+  height: 72px;
+}
+
 .header_logo {
   margin-right: auto;
+  font-size: 24px;
 }
 
 .right-links {
@@ -22,6 +28,7 @@ body {
 ul {
   list-style: none;
   display:flex;
+  margin: 0;
 }
 
 li {
@@ -43,11 +50,11 @@ li {
 }
 
 .hello {
-
+  font-size: 18px;
 }
 
 .button {
-
+  background-color: #3882f6;
 }
 
 .info_section {
@@ -63,15 +70,28 @@ li {
 }
 
 .quote_section {
+ display:flex;
+ background-color: #e5e7eb;
+ justify-content: center;
 
+
+}
+
+.quote_box {
+ display: flex;
+ flex-direction: column;
+ width: 50%;
+ padding: 100px
 }
 
 .quote {
-
+  font-size: 36px;
+  font-style: italic;
 }
 
 .quote_person {
-
+  font-weight: bold;
+  
 }
 
 .signup_section {
@@ -87,5 +107,8 @@ li {
 }
 
 .footer {
-
+  display:flex;
+  height: 72px;
+  justify-content: center;
+  align-items: center;
 }
